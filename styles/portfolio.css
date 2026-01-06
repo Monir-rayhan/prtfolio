@@ -32,8 +32,6 @@ header{
     font-weight: bold;
     color: white;
     cursor: pointer;
-    
-    
 }
 nav{
     width: 71%;
@@ -61,7 +59,7 @@ nav .menu a{
     border: 1px solid red;
     margin: 47px 38px 0px 230px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -88,9 +86,9 @@ nav .menu a{
     }
 }
 
-#banner .banner-image{
+#banner .banner-image img{
     max-width: 585px;
-    max-height: 100px;
+    max-height: 510px;
     vertical-align: middle;
 
 }
