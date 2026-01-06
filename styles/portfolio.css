@@ -20,6 +20,9 @@
 
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png") , url("../images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -34,8 +37,8 @@ header{
     cursor: pointer;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
+    width: 100%;
+    max-width: 1440px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
@@ -56,8 +59,8 @@ nav .menu a{
 }
 
 #banner{
-    border: 1px solid red;
-    margin: 47px 38px 0px 230px;
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +76,7 @@ nav .menu a{
     }
     h1{
         font-size: 85px;
-        font-weight: 700;
+        font-weight: bold;
         color: #181818;
         margin-bottom: 20px;
     }
@@ -88,7 +91,5 @@ nav .menu a{
 
 #banner .banner-image img{
     max-width: 585px;
-    max-height: 510px;
     vertical-align: middle;
-
 }
